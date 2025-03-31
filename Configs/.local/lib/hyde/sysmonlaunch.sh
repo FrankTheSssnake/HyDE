@@ -56,7 +56,7 @@ if [ -f "$pidFile" ]; then
   exit 0
 fi
 
-pkgChk=("io.missioncenter.MissionCenter" "htop" "btop" "top")                     # Array of commands to check
+pkgChk=("io.missioncenter.MissionCenter" "btop" "htop" "top")                     # Array of commands to check
 pkgChk+=("${SYSMONITOR_COMMANDS[@]}")                                             # Add the user defined array commands
 [ -n "${SYSMONITOR_EXECUTE}" ] && pkgChk=("${SYSMONITOR_EXECUTE}" "${pkgChk[@]}") # Add the user defined executable
 

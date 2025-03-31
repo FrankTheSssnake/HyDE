@@ -3,11 +3,11 @@ pipewire                                               # audio/video server
 pipewire-alsa                                          # pipewire alsa client
 pipewire-audio                                         # pipewire audio client
 pipewire-jack                                          # pipewire jack client
-pipewire-pulse                                         # pipewire pulseaudio client
+#pipewire-pulse                                         # pipewire pulseaudio client
 gst-plugin-pipewire                                    # pipewire gstreamer client
 wireplumber                                            # pipewire session manager
-pavucontrol                                            # pulseaudio volume control
-pamixer                                                # pulseaudio cli mixer
+#pavucontrol                                            # pulseaudio volume control
+#pamixer                                                # pulseaudio cli mixer
 networkmanager                                         # network manager
 network-manager-applet                                 # network manager system tray utility
 bluez                                                  # bluetooth protocol stack
@@ -17,10 +17,10 @@ brightnessctl                                          # screen brightness contr
 udiskie                                                # manage removable media
 
 # --------------------------------------------------- // Display Manager
-sddm                                                   # display manager for KDE plasma
-qt5-quickcontrols                                      # for sddm theme ui elements
-qt5-quickcontrols2                                     # for sddm theme ui elements
-qt5-graphicaleffects                                   # for sddm theme effects
+#sddm                                                   # display manager for KDE plasma
+#qt5-quickcontrols                                      # for sddm theme ui elements
+#qt5-quickcontrols2                                     # for sddm theme ui elements
+#qt5-graphicaleffects                                   # for sddm theme effects
 
 # --------------------------------------------------- // Window Manager
 hyprland                                               # wlroots-based wayland compositor
@@ -28,7 +28,7 @@ dunst                                                  # notification daemon
 rofi-wayland                                           # application launcher
 waybar                                                 # system bar
 swww                                                   # wallpaper
-hyprlock                                               # lock screen
+#hyprlock                                               # lock screen
 wlogout                                                # logout menu
 grim                                                   # screenshot tool
 hyprpicker                                             # color picker
@@ -60,22 +60,23 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-firefox                                                # browser
+#firefox                                                # browser
 kitty                                                  # terminal
-dolphin                                                # kde file manager
+#dolphin                                                # kde file manager
+thunar
 ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
-vim                                                    # terminal text editor
+neovim                                                    # terminal text editor
 code                                                   # ide text editor
 nwg-displays                                           # monitor management utility
 fzf                                                    # Command-line fuzzy finder
 
 # --------------------------------------------------- // Shell
-eza|zsh                                                # file lister for zsh
+#eza|zsh                                                # file lister for zsh
 zsh-theme-powerlevel10k-git|zsh                        # theme for zsh
 pokego-bin|zsh                                        # display pokemon sprites in terminal (written GO)
-eza|fish                                               # file lister for fish
-starship|fish                                          # customizable shell prompt
+#eza|fish                                               # file lister for fish
+#starship|fish                                          # customizable shell prompt
 fastfetch                                              # system information fetch tool
 
 # --------------------------------------------------- // HyDE

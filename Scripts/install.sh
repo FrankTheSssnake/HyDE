@@ -151,7 +151,8 @@ EOF
     # get user prefs #
     #----------------#
     echo ""
-    if ! chk_list "aurhlpr" "${aurList[@]}"; then
+#    if ! chk_list "aurhlpr" "${aurList[@]}"; then
+    if false; then
         print_log -c "\nAUR Helpers :: "
         aurList+=("yay-bin" "paru-bin") # Add this here instead of in global_fn.sh
         for i in "${!aurList[@]}"; do
